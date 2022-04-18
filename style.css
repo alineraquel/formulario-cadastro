@@ -1,0 +1,51 @@
+body {
+  margin: 40px
+}
+
+label,
+h1,
+h2,
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-size: 18px;
+  font-weight: 100;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(100, 0, 139);
+}
+h2 {
+  text-align: center;
+  color: rgb(100, 0, 139);
+}
+legend {
+  font-size: 20px;
+  color: rgb(100, 0, 139);
+}
+fieldset {
+  border: solid 5px cornflowerblue;
+}
+div {
+  margin-top: 20px;
+}
+button {
+  margin-left: 20px;
+}
+footer {
+  font-style: italic;
+}
+
+input[type="text"] {
+  width: 300px;
+ 
+}
+label {
+  text-align: right;
+}
+.formulario  label {
+  width: 600px;
+}
+.formulario{
+  margin-top: 20px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Escola Virtual</h1>
+    <h2>Formulário de Pré Cadastro</h2>
+<form action="formulario.html" method="get">
+<div>
+<fieldset>
+    <legend>Dados Pessoais</legend>
+    <div class="formulario">
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome" id="nome" required>  
+    </div>
+
+   <div class="formulario"> 
+        <label for="nascimento">Nascimento</label>
+        <input type="date" name="nascimento" id="nascimento" required>
+    </div>
+
+    <div class="formulario">
+         <label for="pai">Nome do Pai</label>
+        <input type="text" name="pai" id="pai" required>
+    </div>
+
+    <div class="formulario">
+        <label for="mae">Nome da Mãe</label>
+        <input type="text" name="mae" id="mae" required>
+    </div>
+
+    <div class="formulario">
+        <label for="fone">Telefone</label>
+        <input type="tel" name="fone" id="fone" required>   
+    </div>
+
+   <div class="formulario">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+   </div>
+
+    <div class="formulario">
+        <label for="genero">Genêro</label>
+        <select name="genero" id="genero" required>
+            <option value="">Selecione</option>
+            <option value="Masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+    </div>
+     
+</fieldset>
+</div>
+
+<div>
+<fieldset>
+<legend>Dados da Matrícula</legend>
+<label for="série">Série</label>
+<select name="série" id="série" required>
+    <option value="">Escolha uma opção</option>
+    <option value="infantil3">Infantil 3</option>
+    <option value="infantil4">Infantil 4</option>
+    <option value="infantil5">Infantil 5</option>
+    <option value="fundamental1">Fundamental 1</option>
+</select>
+<div>
+    <h3>Turno:</h3>
+    <input type="radio" name="turno" id="turno" required>
+    <label for="manhã">Manhã</label>
+    <input type="radio" name="turno" id="turno" required>
+    <label for="tarde">Tarde</label>
+    
+  </div>
+  <div>
+      <h3>Atividades Extra Curricular:</h3>
+     <div class="div">
+        <input type="checkbox" name="judô" id="judô">
+        <label for="judô">Judô</label>
+     </div>
+      <div class="div">
+        <input type="checkbox" name="natação" id="natação">
+        <label for="Natação">Natação</label>
+      </div>
+      <div class="div">
+        <input type="checkbox" name="futebol" id="futebol">
+        <label for="futebol">Futebol</label>
+      </div>
+      <div class="div">
+        <input type="checkbox" name="dança" id="dança">
+        <label for="dança">Dança</label>
+      </div>
+  </div>
+</fieldset>
+</div>
+<div class="button">
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar Formulário</button>
+</div>
+
+</form>
+
+
+
+</body>
+</html>
